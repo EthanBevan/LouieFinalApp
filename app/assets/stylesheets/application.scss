@@ -1,0 +1,55 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*.middleSection {
+
+  font-size: 30px;
+}
+
+span {
+  color: DodgerBlue;
+}
+
+*/
+
+.title-container {
+  text-align: center;
+   font-size: 70px;
+}
+
+
+.middleSection { 
+
+  font-size: 70px;
+  text-align: center;
+
+
+ }
+
+
+
+
+
+.btn-primary {
+    -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 40px 0px 80px;
+    text-align: center;
+}
+
+.btn-primaryOne {
+-webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 40px 0px 40px;
+    text-align: center;
+}
