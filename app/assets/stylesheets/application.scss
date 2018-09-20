@@ -54,17 +54,27 @@ color: white;
 
  .middleSection1 {
    font-size: 40px;
-  text-align: center;
-padding: 0px 30px 0px 30px;
-margin: 60px 10px 0px 10px;
+  text-align: left;
+padding: 20px 10px 0px 10px;
+margin: 80px 2px 0px 10px;
 color: white;
-background-color: DodgerBlue;
- opacity: 0.7;
+/*background-color: DodgerBlue;*/
+ /*opacity: 0.7;*/
  }
 
  .middleSection1 td {
-  padding: 10px 0px 0px 0px;
+  padding: 30px 10px 30px 10px;
+  margin: 40px 0px 40px 0px;
+  background-color: DodgerBlue;
+  opacity: 0.7;
+  border: 10px solid white;
+  border-collapse: separate;
+    border-spacing: 15px;
+
  }
+
+
+
 
 
 .louieHistory {
@@ -95,7 +105,7 @@ color: white;
   text-align: left;
 padding: 10px;
 background-color: DodgerBlue;
-margin: 80px 0px 0px 40px;
+margin: 60px 0px 0px 40px;
 width: 30%;
 text-align: center;
 border-radius: 20px;
@@ -178,4 +188,8 @@ padding: 0px 290px 0px 350px;
 padding: 0px 40px 0px 40px;
     text-align: center;
 
+}
+
+i {
+  padding: 0px 0px 0px 30px;
 }

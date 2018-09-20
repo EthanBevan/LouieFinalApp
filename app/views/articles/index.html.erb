@@ -1,4 +1,4 @@
-<h1 class="title-container">Listing articles</h1>
+
 <div class="louieHistory1"> <%= link_to 'New article', new_article_path %> </div>
 <div class="middleSection1">
 
@@ -11,12 +11,13 @@
  
   <% @articles.each do |article| %> 
     <tr>
-      <td>Louie has been fed by <%= article.class_name %></td>
-      <td>on <%= article.week_name %></td>
-      <td>the <%= article.date_name %></td>
+      <td>Louie has been fed by <%= article.class_name %>
+      on <%= article.week_name %>
+      the <%= article.date_name %></td>
 
-        
-    </tr>
+        </tr>
+
+  
   <% end %>
 </div>
 </table>
